@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Writes functions for getting and hardcoding the
+## input matrix and inverted matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -20,6 +22,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## function checks if data is present in cache
+## if not then it calculates and returns the 
+## inverse
 
 cacheSolve <- function(x, ...) {
   i <- x$getinv()
