@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
-  i <- x$get()
+  i <- x$getinv()
   if(!is.null(i)) {
     return(i)
   }
